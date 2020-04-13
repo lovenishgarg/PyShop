@@ -11,6 +11,7 @@ def index(request):
                   {'products' : products})
 
 
+
 def new(reques):
     return HttpResponse('New Prodcut')
 
